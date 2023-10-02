@@ -1,0 +1,89 @@
+html, body{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    
+        height: 100%;
+    }
+    
+    /* The hero image */
+.hero-image {
+
+      background-image: url("isotlaatikotpieni.jpg");
+    
+      /* Set a specific height */
+      height: 50%;
+    
+      /* Position and center the image to scale nicely on all screens */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    /* Place text in the middle of the image */
+.hero-text {
+      text-align: left;
+      position: absolute;
+      top: 90%;
+      left: 10%;
+      transform: translate(-50%, -50%);
+      color: black;
+    }
+.responsive {
+        width: 100%;
+        height: auto;
+      }
+
+.content {
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+    padding: 20px;
+    margin: 20px;
+    background-color: beige;
+}
+.button {
+    background-color:RGB(252, 78, 84); /* punainen */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    font-size: 12px;
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    margin-top: 40px;
+    background-color:RGB(252, 78, 84);
+}
+@media only screen and (min-windth: 600px) {
+    .content {
+        width: 75%
+    }
+    .header h1{
+        font-size: 60px;
+        padding: 200px 10px 200px 10px
+    }   
+}
+@media only screen and (min-windth: 1025px) {
+    .content {
+        width: 60%
+    }
+    .header h1{
+        font-size: 70px;
+        padding: 200px 10px 200px 10px
+    }
+
+}
